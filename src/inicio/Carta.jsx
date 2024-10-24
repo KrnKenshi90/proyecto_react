@@ -15,6 +15,7 @@ const Carta = () => {
         <Plato nombre="Sopa Fuchifú" precio="S/11.00" imagen="img2/fuchifu.jpg" />
         <Plato nombre="Sustancia Especial" precio="S/13.00" imagen="img2/sustancia especial.jpg" />
         <Plato nombre="Sustancia de Pollo" precio="S/11.00" imagen="img2/sustancia de pollo.jpg" />
+        <Plato nombre="Sustancia de Criadilla" precio="s/15.00" imagen="img2/sustancia de criadilla.jpg"/>
       </div>
 
       <section className="wrap-title-section">

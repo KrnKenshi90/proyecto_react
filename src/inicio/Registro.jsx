@@ -1,7 +1,13 @@
 import React from 'react';
 import './Registro.css';
+import { useNavigate } from "react-router-dom";
+
 
 const Registro = () => {
+  const navigate = useNavigate();
+    const navegacion = (ruta) =>{
+        navigate(ruta);
+    }
   return (
     <div className="full-screen-container">
       <div className="login-container">
@@ -21,7 +27,7 @@ const Registro = () => {
           </div>
           <strong>
             <button type="submit" className="login-button">
-              <a href="Acceder.html">Iniciar Sesión</a>
+              <a onClick={()=>navegacion("/acceder")}>Iniciar Sesión</a>
             </button>
           </strong>
         </form>

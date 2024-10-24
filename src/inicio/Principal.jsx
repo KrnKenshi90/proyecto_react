@@ -25,9 +25,11 @@ const Principal = () =>{
                             </i>
                         </label>
                         <ul className="main-menu">
-                            {/* Estoy haciendo cambios  */}
+                            <li className="menu-item"><a onClick={()=>navegacion("/categorias")}>Categorias</a></li>
+                            <li className="menu-item"><a onClick={()=>navegacion("/productos")}>Productos</a></li>
+                            <li className="menu-item"><a onClick={()=>navegacion("/pedidos")}>Pedidos</a></li>
                             <li className="menu-item"><a onClick={()=>navegacion("/carta")}>Menú</a></li>
-                            <li id="nav-main-contact" className="menu-item"><a href="Acceder.html">Acceder</a></li>
+                            <li id="nav-main-contact" className="menu-item"><a onClick={()=>navegacion("/acceder")}>Acceder</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -216,9 +218,9 @@ const Principal = () =>{
             <div className="text-element-footer element-footer">
                 <h5>Más Información</h5>
                 <ul>
-                    <li><a href="inicio.html">Inicio</a></li>
+                    <li><a onClick={()=>navegacion("/")}>Inicio</a></li>
                     <li><a href="quienes.html">Quienes Somos</a></li>
-                    <li><a href="carta chifa.html">Carta Chifa Peruchi</a></li>
+                    <li><a onClick={()=>navegacion("/carta")}>Carta Chifa Peruchi</a></li>
                 </ul>
             </div>
             <div className="rrss-element-footer element-footer">
