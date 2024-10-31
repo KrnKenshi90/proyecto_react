@@ -1,9 +1,18 @@
 import React from 'react';
 import './Carta.css';
+import { useNavigate } from "react-router-dom";
 
 const Carta = () => {
+    const navigate = useNavigate();
+    const navegacion = (ruta) =>{
+        navigate(ruta);
+    }
   return (
     <div className="wrap">
+      <button className="back-button" onClick={()=>navegacion("/")}>
+        Volver a la página principal
+      </button>
+
       <section className="wrap-title-section">
         <h2>SOPAS</h2>
       </section>

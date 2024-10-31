@@ -57,4 +57,18 @@ a{
             grid-template-columns: repeat(1,1fr);
         }
     }
+
+    .back-button {
+        padding: 10px 20px;
+        background-color: #ffc300;
+        border: none;
+        border-radius: 5px;
+        color: black;
+        font-size: 1em;
+        cursor: pointer;
+        margin-bottom: 20px;
+    }
     
+    .back-button:hover {
+        background-color: #ffc400cd;
+    }
