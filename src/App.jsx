@@ -27,11 +27,6 @@ function App() {
       <Route path='/principal' element={<Principal2/>} />
       </Routes>
     </BrowserRouter>
-      {/* <Principal>
-      </Principal> */}
-      {/*<Registro></Registro>*/}
-      {/*<Acceder></Acceder>*/}
-      {/* <Carta></Carta> */}
     </>
   )
 }
