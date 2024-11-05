@@ -17,7 +17,7 @@ const Registro = () => {
     const data = Object.fromEntries(formData)
     alert (data)
     if (data.password = data.repassword){
-      axios.post(url,{data}).then((response)=>{
+      axios.post(url,data).then((response)=>{
         console.log(response.data,"registro")
       }).catch((error)=>{
         console.log(error)

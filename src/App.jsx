@@ -8,6 +8,7 @@ import Carta from './inicio/Carta'
 import Pedidos from './Menu/Pedidos'
 import Productos from './Menu/Productos'
 import Categorias from './Menu/Categorias'
+import Principal2 from './inicio/Principal2'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -23,6 +24,7 @@ function App() {
       <Route path='/carta' element={<Carta/>}/>
       <Route path='/registro' element={<Registro/>}/>
       <Route path='/acceder' element={<Acceder/>}/>
+      <Route path='/principal' element={<Principal2/>} />
       </Routes>
     </BrowserRouter>
       {/* <Principal>

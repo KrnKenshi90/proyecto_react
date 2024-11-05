@@ -21,7 +21,7 @@ const Acceder = () => {
     axios.post(url, data)
       .then((response) => {
         console.log(response.data);
-        navigate('/');
+        navigate('/principal');
       })
       .catch((error) => {
         console.log(error);
